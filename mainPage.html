@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand/logo -->
+    <a class="navbar-brand" href="#">
+      <img src="Assets/diversifai.png" alt="logo" style="width:40px;">
+    </a>
+
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Search</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Create</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Profile</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="form-group">
+    <label for="search-box">I'm Looking for a :</label>
+    <input type="text" class="form-control" id="search-box">
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img-fluid" src="Assets/face-wire.jpg" alt="Your Face">
+      </div>
+      <div class="col-sm-6">
+        <h3>Focus on</h3>
+
+        <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown">
+          Select Feature
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Overall</a>
+          <a class="dropdown-item" href="#">Face</a>
+          <a class="dropdown-item" href="#">Eyes</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class = "row"">
+    <button type="button" class="btn btn-primary" style="width:90%">Search</button>
+  </div>
+
+</body>
+
+</html>
